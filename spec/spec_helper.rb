@@ -9,7 +9,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 
-Capybara.app = CHitter
+Capybara.app = Chitter
 
 
 

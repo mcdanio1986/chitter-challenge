@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-class Chitter << Sinatra::Base
+class Chitter < Sinatra::Base
 
   get '/' do
     @peeps = peeps.all
